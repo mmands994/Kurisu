@@ -104,6 +104,17 @@ class Assistance:
         embed.url = "https://github.com/Cruel/DspDump/releases/latest"
         await self.bot.say("", embed=embed)
 
+     # uninstalling a9lh command
+    @commands.command()
+    async def uninstalla9lh(self):
+        """Links to uninstalling A9LH guide."""
+        embed = discord.Embed(title="Uninstalling A9LH", color=discord.Color.green())
+        embed.set_author(name="gigaplexorax", url="https://pastebin.com/u/gigaplexorax", icon_url="https://pastebin.com/cache/img/25/18/9/2443862.jpg")
+        embed.description = "Guide for uninstalling A9LH. Method 2 is recommended."
+        embed.set_thumbnail(url="http://i.imgur.com/AkzAeqC.png")
+        embed.url = "https://pastebin.com/bc1jF0TT"
+        await self.bot.say("", embed=embed)    
+        
     @commands.command()
     async def ntrstream(self):
         """Links to ntr streaming guide"""
